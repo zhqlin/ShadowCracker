@@ -1,4 +1,4 @@
-				ShadowCracker
+				ShadowCracker by:Janusz Pazgier
 
 Python Script that takes in a shadow file and tries to crack username with use of wordlist
 
