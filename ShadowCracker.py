@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+#Shadow Cracker
+#By: Janusz Pazgier
+#Date: 9/22/16
 from sys import argv
 import crypt, hashlib, pwd
 script, filename, user = argv
@@ -40,7 +43,7 @@ def main():
 			if (username == user):
 				passwordFound = True
 				crackPass(cryptPass, username, filename)
-	if(passwordFound == False):
+	if(passwordFound == False): #Prints if password is not present in dictionary
 		print "Use does not exist or does not have a password"
 
 if __name__ == "__main__":
