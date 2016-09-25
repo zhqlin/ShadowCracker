@@ -5,7 +5,8 @@
 from sys import argv
 import crypt, hashlib, pwd
 script, filename, user = argv
-#crypt, is a module built into python which is a one-way hash function based upon a modified DES #algorithm, which will help crack UNIX paswords with a dictionary
+#Crypt, is a module built into python which is a one-way hash function based upon a modified DES #algorithm, which will help crack 
+#UNIX paswords with a dictionary
 
 def crackPass(cryptPass,username, filename):
 	wordList = open ('dictionary', 'r')
@@ -48,5 +49,3 @@ def main():
 
 if __name__ == "__main__":
 	main()
-
-#print "Here's your file %r:" % filename
